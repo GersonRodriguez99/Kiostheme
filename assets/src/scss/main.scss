@@ -1,0 +1,40 @@
+
+// abstracts
+@import "abstracts/variables";
+
+
+$fa-font-path           : "../../../assets/fontawesome/webfonts";
+@import "../../../node_modules/@splidejs/splide/src/css/core/index.scss";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+@import "../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+
+// vendors
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// vendors overrides
+// @import "vendors/myvendor";
+
+// base
+@import "base/fonts",
+        "base/base";
+
+// layout
+@import "layout/header",
+        "layout/footer",
+        "layout/forms",
+        "layout/checkout",
+        "layout/grid";
+
+// components
+@import "components/buttons",
+        "components/slider",
+        "components/modal",
+        "components/topbar";
+
+// pages
+@import "pages/front-page",
+        "pages/page";
+

@@ -1,0 +1,32 @@
+body{
+    height: 100vh;
+    background-color: #eef2f6;
+}
+.home {
+    color: red;
+}
+.main-container{
+    padding: 20px;
+    box-shadow: 3px 18px 9px 0px rgba(0, 0, 0, 0.027) inset;
+    -webkit-box-shadow: 3px 18px 9px 0px rgba(0, 0, 0, 0.027) inset;
+    -moz-box-shadow: 3px 18px 9px 0px rgba(0, 0, 0, 0.027) inset;
+    background-color: #eef2f6;
+    height: 100%;
+    display: flex;
+}
+#productsdiv h1{
+color:#2175c8;
+margin-top:20px;
+}
+#productsdiv hr{
+    margin-bottom:30px;
+    }
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    font-style: normal;
+    font-weight: 400;
+    font-display: $fa-font-display;
+    src: url('../../fontawesome/webfonts/fa-regular-400.ttf') format('woff2'),
+      url('../../fontawesome/webfonts/fa-regular-400.ttf') format('truetype');
+  }
+  

@@ -1,0 +1,109 @@
+.container{
+    &.checkout{
+        background-color: #2175c8;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .check-container{
+            background-color: white;
+            width: 80vw;
+            height: 80vw;
+            width: 80vw;
+            height: 90%;
+            -webkit-box-shadow: 6px 3px 3px -1px rgba(0,0,0,0.17); 
+            box-shadow: 6px 3px 3px -1px rgba(0,0,0,0.17);
+        }
+
+        .checkout-header{
+            text-align: center;
+            padding-top: 20px;
+        }
+        .checkout-content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .checkout-footer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            button{
+                background-color: #2175c8;
+                color: white;
+                border: none;
+                width: 50%;
+                margin-top: 50px;
+                padding:25px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+.woocommerce-checkout{
+    h3{
+        color: #2175c8;
+    }
+    th{
+        color: black;
+    }
+    td{
+        color: black;
+    }
+    p{
+        color: black;
+    }
+    label{
+        color: black;
+    }
+    #place_order{
+        background-color: #2175c8;
+    }
+}
+
+.woocommerce table.shop_table {
+    @media screen and ( min-height: 1110px ){
+        display: block;
+        max-height: 400px;
+        overflow-y: auto;
+        width: 100%;
+    }
+    @media screen and ( min-height: 1294px ){
+        display: block;
+        max-height: 537px;
+        overflow-y: auto;
+        width: 100%;
+    }
+    @media screen and ( min-height: 1463px ){
+        display: block;
+        max-height: 665px;
+        overflow-y: auto;
+        width: 100%;
+    }
+    @media screen and ( min-height: 1605px ){
+        display: block;
+        max-height: 765px;
+        overflow-y: auto;
+        width: 100%;
+    }
+    @media screen and ( min-height: 1730px ){
+        display: block;
+        max-height: 857px;
+        overflow-y: auto;
+        width: 100%;
+    }
+    @media screen and ( min-height: 1870px ){
+        display: block;
+        max-height: 959px;
+        overflow-y: auto;
+        width: 100%;
+    }
+
+    thead, tbody, tfoot, tr, td, th {
+        
+        width: 100%;
+    }
+}

@@ -1,0 +1,19 @@
+
+.page-template-default {
+
+}
+
+#imgloading{
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-content: center;
+    background-color: #0000005c;
+    align-items: center;
+    img{
+        height: 50px;
+    }
+}

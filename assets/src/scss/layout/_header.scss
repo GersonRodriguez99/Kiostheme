@@ -1,0 +1,90 @@
+
+.site-header {
+
+}
+.site-branding{
+    display: none;
+}
+.home-container{
+
+}
+.overlay-bg{
+    position: absolute ;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    z-index: 20;
+    background: rgba(255,255,255,0);
+background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(33,117,200,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(100%, rgba(33,117,200,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(33,117,200,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(33,117,200,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(33,117,200,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(33,117,200,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#2175c8', GradientType=0 );
+height: 100vh;
+}
+.kiosk-main-title{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    font-weight: 700;
+    font-size: 135px;
+    color: white;
+    text-shadow: 0px 1px 16px rgb(0 0 0);
+}
+.kiosk-sub-title{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    padding-top: 208px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 0px 1px 16px rgb(0 0 0);
+}
+.main-menu-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #2175c8;
+
+    .container{
+        display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    }
+    .row{
+        width: 68%;
+        text-align: center;
+
+        &.title{
+            justify-content: center;
+            justify-items: center;
+            justify-self: center;
+            margin-bottom: 70px;
+            font-size: 30px;
+        }
+    }
+    .button{
+        background-color: white;
+        border-radius: 10px;
+        color: #2175c8;
+        padding: 20px;
+        margin-bottom: 33px;
+        display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    }
+}

@@ -1,0 +1,77 @@
+//list
+.list-group{
+    border-radius: 0px;
+    .list-group-item{
+        background-color: transparent;
+        cursor: pointer;
+        padding: 20px;
+        border: none;
+        &.active{
+            font-weight: 800;
+            background: rgb(33,117,200);
+            background: linear-gradient(90deg, rgba(33,117,200,0.5) 0%, rgba(9,9,121,0) 100%);
+            border-left: 4px solid ;
+            border-color: #2175c8;
+            color: #2175c8;
+            z-index: 0;
+        }
+    }
+}
+
+
+//cards 
+#productsdiv{
+    @media screen and ( min-height: 1919px ){
+        height: 87vh;
+        overflow-y: auto;
+    }
+    @media screen and ( min-height: 800px ){
+        height: 74vh;
+        overflow-y: auto;
+    }
+
+}
+.card-deck{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+}
+.card{
+    min-height: 350px;
+    width: 100% !important;
+    a{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    img{
+        object-fit: cover;
+        height: 100%;
+    }
+}
+.card-body{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.884);
+    width: 100%;
+    bottom: 0;
+}
+.card-text{
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    div + div {
+        &::before{
+            content: " - ";
+            margin: 5px;
+        }
+    }
+
+    span+span:before{
+        content: " - ";
+        padding: 0 10px;
+    }
+}
+.card-title{
+    color: #000;
+}
